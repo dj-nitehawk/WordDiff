@@ -1,2 +1,5 @@
 # WordDiff
-A wrapper around DiffPlex for diffing two blocks of text inline and marking the differences with &lt;ins> and &lt;del> tags.
+
+A .Net class library for doing a word based text diff (instead of character based).
+
+Uses [DiffPlex](https://github.com/mmanela/diffplex) internally to do a word-by-word diff, and merge both pieces of input together and marks the insertions and deletions with `<ins>` and `<del>` html tags.
