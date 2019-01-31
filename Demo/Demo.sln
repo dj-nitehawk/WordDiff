@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28516.95
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDiff", "WordDiff.csproj", "{81CE5CA2-1595-4CB9-A59F-BC110AB118B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{93BC814C-0AAB-4DFB-9E5F-7EA440037F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDiff", "..\WordDiff\WordDiff.csproj", "{81CE5CA2-1595-4CB9-A59F-BC110AB118B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93BC814C-0AAB-4DFB-9E5F-7EA440037F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BC814C-0AAB-4DFB-9E5F-7EA440037F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BC814C-0AAB-4DFB-9E5F-7EA440037F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BC814C-0AAB-4DFB-9E5F-7EA440037F9F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81CE5CA2-1595-4CB9-A59F-BC110AB118B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{81CE5CA2-1595-4CB9-A59F-BC110AB118B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81CE5CA2-1595-4CB9-A59F-BC110AB118B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -20,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D8F9F088-3BE9-4635-8F3E-6256E97F9873}
+		SolutionGuid = {21A01E9A-3B73-48F0-A0EB-88F5E74FFD39}
 	EndGlobalSection
 EndGlobal

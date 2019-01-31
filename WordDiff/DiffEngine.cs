@@ -13,12 +13,12 @@ namespace WordDiff
         static string TagDeletetOpen = "<del>";
         static string TagDeleteClose = "</del>";
 
-        private static string DoTheDiff(string oldText, string newText)
+        public static string DoTheDiff(string oldText, string newText)
         {
             var diff = BuildDiffModel(oldText, newText);
 
             var prevType = diff.Lines[0].Type;
-            var result = GetTag(diff.Lines[0].Type, true);
+            var result = GetTag(prevType, true);
             var needToClose = true;
             var pieceCount = 0;
 
